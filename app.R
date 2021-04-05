@@ -1,3 +1,7 @@
+# 31 march 2020
+# .libPaths(c(.libPaths(), "/home/ubuntu/R/x86_64-pc-linux-gnu-library/4.0", "/opt/R/4.0.2/lib/R/library" ))
+.libPaths("/usr/local/lib/R/site-library/")
+
 # load packages
 library(dplyr)
 library(ggplot2)
@@ -6,9 +10,6 @@ library(ggrepel)
 library(AmesHousing)
 library(shiny)
 library(DT)
-
-# 31 march 2020
-.libPaths(c(.libPaths(), "/home/ubuntu/R/x86_64-pc-linux-gnu-library/4.0", "/opt/R/4.0.2/lib/R/library" ))
 
 # prepare dataset
 ames <- make_ames()
